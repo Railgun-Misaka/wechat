@@ -1,0 +1,13 @@
+﻿<html>
+<body>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+	<!-- enctype的默认值是application/x-www-form-urlencoded，不能用于文件上传
+	       multipart/form-data是指表单数据有多部分构成，既有文本数据，又有文件等二进制数据 -->
+
+	<form action="https://api.weixin.qq.com/cgi-bin/media/upload?access_token=26_X2vPWvPig1qKV_8g7fopDsoJpONY4gxj8FzIXOB_Bk6CbxyVLQdH5olKD8sLzEivm0U_H8GxdWgWQvc4gWxHJ_TvL0IYgZ4HN8WbjTD2JZ90mm23CfWmSyejBpMda5KEuvOhgPo6W7ja7Kj3OSNeAIAEID&type=video" method="post" enctype="multipart/form-data">
+		<div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="file" name="media"></div>
+		<input type="submit" value="上传">
+	</form>
+</body>
+</html>
